@@ -1,0 +1,198 @@
+import { shop1, shop2, shop3, shop4, shop5, shop6, shop7, shop8 } from "../assets/images";
+
+const products = [
+  {
+    id: 1,
+    sku: "CH_0015",
+    name: "Classic Relaxable Chair",
+    category: "Chairs",
+    original_price: "$140.99",
+    sale_price: "$85.00",
+    offer_message: "Hurry Up! Sale Ends :",
+    countdown: { days: "D", hours: "H", minutes: "M", seconds: "S" },
+    description:
+      "Experience the epitome of relaxation with our Classic Relaxable Chair. Crafted with plush cushioning and ergonomic design, it offers unparalleled comfort for lounging or reading. Its timeless style seamlessly blends with any decor, while the sturdy construction ensures durability for years to come.",
+    details: {
+      leather: "From Japan",
+      brand: "Navana",
+      weight: "1kg",
+      colors: ["Wooden", "White", "Blue", "Orange"],
+    },
+    image: shop1,
+    reviews: [
+      { user: "Alice", rating: 5, comment: "Super comfortable, I use it every day!" },
+      { user: "James", rating: 4, comment: "Good quality, but shipping was a bit slow." },
+      { user: "Sophia", rating: 5, comment: "Stylish and durable. Worth the price." },
+    ],
+  },
+  {
+    id: 2,
+    sku: "CH_0016",
+    name: "White Minimal Chair",
+    category: "Chairs",
+    original_price: "$25.75",
+    sale_price: "$25.75",
+    offer_message: "",
+    countdown: { days: "", hours: "", minutes: "", seconds: "" },
+    description:
+      "The White Minimal Chair embodies modern simplicity at its finest. Designed with clean lines and a sleek profile, this chair is perfect for contemporary spaces.",
+    details: {
+      brand: "Generic",
+      weight: "2kg",
+      colors: ["White", "Black", "Gray"],
+      material: "Wood & Fabric",
+    },
+    image: shop2,
+    reviews: [
+      { user: "Daniel", rating: 5, comment: "Minimal design that fits perfectly in my room." },
+      { user: "Liam", rating: 4, comment: "Comfortable, but could be a bit sturdier." },
+      { user: "Mia", rating: 5, comment: "Love it! Great value for the price." },
+    ],
+  },
+  {
+    id: 3,
+    sku: "SF_0017",
+    name: "Preminu Luxury Sofa",
+    category: "Sofas",
+    original_price: "$122.75",
+    sale_price: "$122.75",
+    offer_message: "",
+    countdown: { days: "", hours: "", minutes: "", seconds: "" },
+    description:
+      "The Preminu Luxury Sofa is a true statement piece that combines elegance and comfort. Upholstered in premium fabric with a soft-touch feel, this sofa offers deep seating for ultimate relaxation.",
+    details: {
+      brand: "Generic",
+      weight: "8kg",
+      colors: ["Beige", "Brown", "Gray"],
+      material: "Leather & Wood",
+    },
+    image: shop3,
+    reviews: [
+      { user: "Olivia", rating: 5, comment: "Extremely comfortable and looks luxurious." },
+      { user: "Ethan", rating: 4, comment: "Nice sofa but quite heavy to move around." },
+      { user: "Emma", rating: 5, comment: "Perfect for my living room. Very satisfied." },
+    ],
+  },
+  {
+    id: 4,
+    sku: "TB_0018",
+    name: "Table With Pops",
+    category: "Tables",
+    original_price: "$140.99",
+    sale_price: "$140.99",
+    offer_message: "",
+    countdown: { days: "", hours: "", minutes: "", seconds: "" },
+    description:
+      "The Table With Pops is a bold, modern centerpiece for any dining or living area. Featuring a unique design with pop-inspired accents, this table brings energy and vibrancy to your space.",
+    details: {
+      brand: "Generic",
+      weight: "5kg",
+      colors: ["Brown", "White"],
+      material: "Wood",
+    },
+    image: shop4,
+    reviews: [
+      { user: "Henry", rating: 5, comment: "Sturdy and looks very stylish." },
+      { user: "Ella", rating: 4, comment: "Love the design, but it scratches easily." },
+      { user: "Noah", rating: 5, comment: "Perfect centerpiece for my dining room." },
+    ],
+  },
+  {
+    id: 5,
+    sku: "LG_0019",
+    name: "Luxury Lamp for Wall",
+    category: "Lighting",
+    original_price: "$122.75",
+    sale_price: "$122.75",
+    offer_message: "",
+    countdown: { days: "", hours: "", minutes: "", seconds: "" },
+    description:
+      "Elevate your home’s lighting with the Luxury Lamp for Wall. This elegant wall-mounted lamp features a sleek design that adds a touch of sophistication to any room.",
+    details: {
+      brand: "Generic",
+      weight: "1.5kg",
+      colors: ["Gold", "Silver", "Black"],
+      material: "Metal & Glass",
+    },
+    image: shop5,
+    reviews: [
+      { user: "Lucas", rating: 5, comment: "Beautiful lamp, bright and elegant." },
+      { user: "Ava", rating: 5, comment: "Adds so much charm to my bedroom." },
+      { user: "William", rating: 4, comment: "Looks great but installation was tricky." },
+    ],
+  },
+  {
+    id: 6,
+    sku: "CH_0020",
+    name: "White Minimal Chair",
+    category: "Chairs",
+    original_price: "$140.99",
+    sale_price: "$140.99",
+    offer_message: "",
+    countdown: { days: "", hours: "", minutes: "", seconds: "" },
+    description:
+      "A modern reinterpretation of the classic White Minimal Chair, this version combines sleek design with durability.",
+    details: {
+      brand: "Generic",
+      weight: "2kg",
+      colors: ["White", "Gray"],
+      material: "Wood & Fabric",
+    },
+    image: shop6,
+    reviews: [
+      { user: "Isabella", rating: 5, comment: "Stylish and sturdy. Fits my workspace perfectly." },
+      { user: "Jack", rating: 4, comment: "A bit overpriced but nice quality." },
+      { user: "Harper", rating: 5, comment: "Super comfortable and well-designed." },
+    ],
+  },
+  {
+    id: 7,
+    sku: "DC_0021",
+    name: "Luxury Vase for Table",
+    category: "Decor",
+    original_price: "$122.75",
+    sale_price: "$122.75",
+    offer_message: "",
+    countdown: { days: "", hours: "", minutes: "", seconds: "" },
+    description:
+      "The Luxury Vase for Table is a refined decorative piece that elevates any space. Its smooth ceramic finish and elegant shape make it perfect for holding fresh flowers or standing as a stylish accent.",
+    details: {
+      brand: "Generic",
+      weight: "0.8kg",
+      colors: ["White", "Blue", "Black"],
+      material: "Ceramic",
+    },
+    image: shop7,
+    reviews: [
+      { user: "Emily", rating: 5, comment: "Looks so elegant on my dining table." },
+      { user: "Mason", rating: 4, comment: "Good size, but packaging could be better." },
+      { user: "Amelia", rating: 5, comment: "Absolutely love this vase. Very chic!" },
+    ],
+  },
+  {
+    id: 8,
+    sku: "TB_0022",
+    name: "Modern Long Table",
+    category: "Tables",
+    original_price: "$122.75",
+    sale_price: "$122.75",
+    offer_message: "",
+    countdown: { days: "", hours: "", minutes: "", seconds: "" },
+    description:
+      "The Modern Long Table is a functional and stylish centerpiece, designed for both utility and elegance.",
+    details: {
+      brand: "Generic",
+      weight: "7kg",
+      colors: ["Brown", "Black"],
+      material: "Wood",
+    },
+    image: shop8,
+    reviews: [
+      { user: "Benjamin", rating: 5, comment: "Perfect for family dinners. Very spacious." },
+      { user: "Charlotte", rating: 5, comment: "Love the finish and design." },
+      { user: "Alexander", rating: 4, comment: "Solid table but quite heavy to move." },
+    ],
+  },
+];
+
+export default products;

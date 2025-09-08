@@ -1,0 +1,57 @@
+import logo from "../assets/logo.jpg";
+import bglogo from "../assets/logo-removebg.png";
+import banner from '../assets/banner-02-D_i8EOvA.png'
+import banner1 from '../assets/banner-01-BByUH_7G.png'
+import luxuru_sofa from '../assets/download (5).svg'
+import luxury_sofa_white from '../assets/sofa.svg'
+import candil from '../assets/offer-01-DpXUMdcp.png'
+import tree from '../assets/offer-02-YIA4Furk.png'
+import latest_product from '../assets/download (6).svg'
+import shop1 from '../assets/shop/shop1.jpg'
+import shop2 from '../assets/shop/shop2.jpg'
+import shop3 from '../assets/shop/shop3.jpg'
+import shop4 from '../assets/shop/shop4.jpg'
+import shop5 from '../assets/shop/shop5.jpg'
+import shop6 from '../assets/shop/shop6.jpg'
+import shop7 from '../assets/shop/shop7.jpg'
+import shop8 from '../assets/shop/shop8.jpg'
+import pd_offer from '../assets/pdct-01-oTBP-W9z.jpg'
+import pd_offer1 from '../assets/pdct-02-D4InWwuE.jpg'
+import commernt_blog from '../assets/comment.svg'
+import blog1 from '../assets/Blog/blog1.jpg'
+import blog2 from '../assets/Blog/blog2.jpg'
+import blog3 from '../assets/Blog/blog3.jpg'
+import blog4 from '../assets/Blog/blog4.jpg'
+import breadcrumb from '../assets/breadcumb.jpg'
+import ourstory from '../assets/ourstory.svg'
+import about_banner from '../assets/about-banner.jpg'
+import about_banner2 from '../assets/about-banner2.jpg'
+import about_banner3 from '../assets/about-banner3.jpg'
+import like from './like.svg'
+import fea1 from '../assets/fea1.svg'
+import fea2 from '../assets/fea2.svg'
+import fea3 from '../assets/fea3.svg'
+import fea4 from '../assets/fea4.svg'
+import fea5 from '../assets/fea5.svg'
+import video from './video.jpg'
+import hands from './hands.svg'
+import partner1 from '../assets/logo/partner1.svg'
+import partner2 from '../assets/logo/partner2.svg'
+import partner3 from '../assets/logo/partner3.svg'
+import partner4 from '../assets/logo/partner4.svg'
+import partner5 from '../assets/logo/partner5.svg'
+import partner6 from '../assets/logo/partner6.svg'
+import partner7 from '../assets/logo/partner7.svg'
+import partner8 from '../assets/logo/partner8.svg'
+import partner9 from '../assets/logo/partner9.svg'
+import partner10 from '../assets/logo/partner10.svg'
+import partner11 from '../assets/logo/partner11.svg'
+import partner12 from '../assets/logo/partner12.svg'
+
+
+
+export { logo, bglogo, banner, banner1, luxuru_sofa, luxury_sofa_white, candil, tree, latest_product,
+     shop1, shop2, shop3, shop4, shop5, shop6, shop7, shop8, pd_offer, pd_offer1, commernt_blog, blog1,
+      blog2, blog3, blog4, breadcrumb, ourstory, about_banner, about_banner2, about_banner3, like, fea1,
+       fea2, fea3,fea4,fea5, video, hands, partner1, partner2, partner3,partner4, partner5,partner6, partner7, partner8,
+    partner9, partner10, partner11, partner12 };
