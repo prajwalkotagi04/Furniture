@@ -101,9 +101,9 @@ export default function SingleBlogPage() {
                     </div>
                     <div className='bg-gray-100 py-20 px-10 my-5'>
                         <h3 className='text-2xl font-bold'>Recent Posts</h3>
-                        <ul>
-                            <li>Auctor sit elementum habitant vel tempor varius.</li>
-                            <li>Consectetur purus habitasse ut diam habitant varius.</li>
+                        <ul className='leading-6'>
+                            <li className='text-md'>Auctor sit elementum habitant vel tempor varius.</li>
+                            <li className='text-md'>Consectetur purus habitasse ut diam habitant varius.</li>
                         </ul>
                     </div>
                 </div>
