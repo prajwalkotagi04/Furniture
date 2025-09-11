@@ -50,11 +50,11 @@ export default function Navbar() {
                 </div>
                 <div className='flex gap-7 mx-5'>
                     <ul>
-                        <li>Login</li>
+                        <li>Enquire Now</li>
                     </ul>
-                    <MdOutlineShoppingCartCheckout className='size-5' />
+                    {/* <MdOutlineShoppingCartCheckout className='size-5' />
                     <IoBagCheckOutline className='size-5' />
-                    <TiHeartOutline className='size-5' />
+                    <TiHeartOutline className='size-5' /> */}
 
                 </div>
             </div>
