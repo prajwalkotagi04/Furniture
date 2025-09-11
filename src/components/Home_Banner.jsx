@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { banner, banner1, luxuru_sofa } from '../assets/images';
+import { banner, banner1,  luxuru_sofa } from '../assets/images';
 
 export default function Home_Banner() {
     const [hovered, setHovered] = useState(false);

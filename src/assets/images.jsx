@@ -2,7 +2,7 @@ import logo from "../assets/logo.jpg";
 import bglogo from "../assets/logo-removebg.png";
 import banner from '../assets/banner-02-D_i8EOvA.png'
 import banner1 from '../assets/banner-01-BByUH_7G.png'
-import luxuru_sofa from '../assets/download (5).svg'
+import luxuru_sofa from '../assets/download(5).svg'
 import luxury_sofa_white from '../assets/sofa.svg'
 import candil from '../assets/offer-01-DpXUMdcp.png'
 import tree from '../assets/offer-02-YIA4Furk.png'
@@ -50,8 +50,10 @@ import partner12 from '../assets/logo/partner12.svg'
 
 
 
+
+
 export { logo, bglogo, banner, banner1, luxuru_sofa, luxury_sofa_white, candil, tree, latest_product,
      shop1, shop2, shop3, shop4, shop5, shop6, shop7, shop8, pd_offer, pd_offer1, commernt_blog, blog1,
       blog2, blog3, blog4, breadcrumb, ourstory, about_banner, about_banner2, about_banner3, like, fea1,
        fea2, fea3,fea4,fea5, video, hands, partner1, partner2, partner3,partner4, partner5,partner6, partner7, partner8,
-    partner9, partner10, partner11, partner12 };
+    partner9, partner10, partner11, partner12};
