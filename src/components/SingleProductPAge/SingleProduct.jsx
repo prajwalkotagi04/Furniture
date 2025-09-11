@@ -50,14 +50,15 @@ export default function SingleProduct() {
                     </div>
 
                     <p className='text-md text-justify'>{product.description}</p>
-                    <div className='gap-5 flex my-5'>
-                        <button className='px-13 py-3 border'>Add to Cart</button>
-                        <button className='px-13 py-3 border'>Add to Wishlist</button>
-                    </div>
+                    
 
                     <h5><b>SKU:</b> <span>{product.sku}</span></h5>
                     <h5><b>Category:</b> {product.category}</h5>
                     <h5><b>Color:</b> {product.details.colors + ' , '}</h5>
+                    <div className='gap-5 flex my-5'>
+                        <button className='px-13 py-3 border'>Enquire Now</button>
+                        {/* <button className='px-13 py-3 border'>Add to Wishlist</button> */}
+                    </div>
                 </div>
             </div>
             <div className='w-full items-center justify-center px-30 pb-30'>

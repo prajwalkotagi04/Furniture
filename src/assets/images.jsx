@@ -47,6 +47,9 @@ import partner9 from '../assets/logo/partner9.svg'
 import partner10 from '../assets/logo/partner10.svg'
 import partner11 from '../assets/logo/partner11.svg'
 import partner12 from '../assets/logo/partner12.svg'
+import demo1 from '../assets/demo1.svg'
+import demo2 from '../assets/demo2.svg'
+import demo3 from '../assets/demo3.svg'
 
 
 
@@ -56,4 +59,4 @@ export { logo, bglogo, banner, banner1, luxuru_sofa, luxury_sofa_white, candil, 
      shop1, shop2, shop3, shop4, shop5, shop6, shop7, shop8, pd_offer, pd_offer1, commernt_blog, blog1,
       blog2, blog3, blog4, breadcrumb, ourstory, about_banner, about_banner2, about_banner3, like, fea1,
        fea2, fea3,fea4,fea5, video, hands, partner1, partner2, partner3,partner4, partner5,partner6, partner7, partner8,
-    partner9, partner10, partner11, partner12};
+    partner9, partner10, partner11, partner12, demo1, demo2, demo3};

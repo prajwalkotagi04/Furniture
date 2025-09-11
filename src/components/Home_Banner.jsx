@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { banner, banner1,  luxuru_sofa } from '../assets/images';
+import { banner, banner1,  demo1,  demo2,  demo3,  luxuru_sofa } from '../assets/images';
 
 export default function Home_Banner() {
     const [hovered, setHovered] = useState(false);
@@ -38,7 +38,7 @@ export default function Home_Banner() {
             <section className='  px-20 bg-[#EBEAEA] pb-30 pt-20'>
                 <div className='grid-cols-4 grid py-8 border-white px-8 bg-white rounded-2xl'>
                     <div className='flex w-70 gap-3'>
-                        <img src={luxuru_sofa} alt="sofa" className='w-20' />
+                        <img src={luxuru_sofa} alt="sofa" className='w-15' />
                         <div className='mt-4'>
                             <h3>Luxury Sofa Set</h3>
                             <p>26 Products</p>
@@ -46,24 +46,24 @@ export default function Home_Banner() {
                     </div>
 
                     <div className='flex w-70 gap-3'>
-                        <img src={luxuru_sofa} alt="sofa" className='w-20' />
+                        <img src={demo1} alt="sofa" className='w-15' />
                         <div className='mt-4'>
-                            <h3>Luxury Sofa Set</h3>
-                            <p>26 Products</p>
+                            <h3>Table & Chair</h3>
+                            <p>36 Products</p>
                         </div>
                     </div>
                     <div className='flex w-70 gap-3'>
-                        <img src={luxuru_sofa} alt="sofa" className='w-20' />
+                        <img src={demo2} alt="sofa" className='w-15' />
                         <div className='mt-4'>
-                            <h3>Luxury Sofa Set</h3>
-                            <p>26 Products</p>
+                            <h3>Vases & Lamp</h3>
+                            <p>30 Products</p>
                         </div>
                     </div>
                     <div className='flex w-70 gap-3'>
-                        <img src={luxuru_sofa} alt="sofa" className='w-20' />
+                        <img src={demo3} alt="sofa" className='w-15' />
                         <div className='mt-4'>
-                            <h3>Luxury Sofa Set</h3>
-                            <p>26 Products</p>
+                            <h3>Interior Collection</h3>
+                            <p>14 Products</p>
                         </div>
                     </div>
                 </div>
